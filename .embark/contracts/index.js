@@ -1,5 +1,6 @@
 module.exports = {
-"Client": require('./Client').default,
+"Advertisment": require('./Advertisment').default,
 "HelperFunctions": require('./HelperFunctions').default,
+"Client": require('./Client').default,
 "Lawyer": require('./Lawyer').default
 }

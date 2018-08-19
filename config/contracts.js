@@ -30,12 +30,18 @@ module.exports = {
       "ws://localhost:8546",
       "http://localhost:8545"
     ],
-    gas: "auto",
+    gas: "8000000",
     contracts: {
-      // example:
-      //SimpleStorage: {
-      //  args: [ 100 ]
-      //}
-    }
+      "Client": {
+        "args": [
+          
+        ]
+      }
+      ,"Lawyer": {
+        "args": [
+            "$Client"
+        ]
+      }
   }
+}
 };
