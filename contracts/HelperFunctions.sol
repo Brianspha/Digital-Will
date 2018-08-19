@@ -11,6 +11,18 @@ struct Will{
     string id;
     string[] assets;
 }
+struct PendingWill
+{
+    uint256 UID;
+    address Owner;
+    bool IsPending;
+}
+struct Advert{
+    address UID;
+    string end;
+    bool isActive;
+}
+
 //@Dev Used to log messages returned by functions 
 event GeneralLogger(string  message);
 //@Dev Converts bytes32 to string

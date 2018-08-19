@@ -1,1 +1,154 @@
-{}
+{
+  "0x5a4cff626715909257dc0abc062fc25b11cb6bd30dfc7db04c8a9d7faba58953": {
+    "contracts": {
+      "0x1f0a4e4fbbe882c6db54d850004996a6aee407bfca8982cf3fb5e24ef4d2d102": {
+        "name": "Client",
+        "address": "0xc85a6DeC7d9D8097a9EeB6408acB473c32F207FA"
+      },
+      "0x86c213327e8fdcac986030e60bc63ef306b3719f3f7c9cd90eeaea8ee8abc3a1": {
+        "name": "HelperFunctions",
+        "address": "0xD8fC2161946DE598fD0B507dDD4fAD07b113169A"
+      },
+      "0xf58ec73a1e3fcd62cc085e5f42e7351cbac14b20790be3141f9f5d15cc0c302c": {
+        "name": "Lawyer",
+        "address": "0x4a43a4f38402691677BDddd51709A7c4dc0F6f2A"
+      },
+      "0x757df64003a4c4093991e44b94a184f84285ae584d62dc6fc385bf8ffa4a4073": {
+        "name": "Client",
+        "address": "0x5C1A3c836b210007B9D377cDdEd71D35dDF89641"
+      },
+      "0x2bfb9aee94efc9e7b14b9975badf9d62ec9c62058913156418ad27d1bd433a59": {
+        "name": "HelperFunctions",
+        "address": "0xC707f23559AeCaFef9F791F385F5DFBdD8b6A5Ae"
+      },
+      "0x2155f3c17537c3c61d7a14b2ccb504ade813c176bdac009b8ba8521590d82c7f": {
+        "name": "Lawyer",
+        "address": "0xaDC21791854d6a047413CaBEdEDED9410D0157ca"
+      },
+      "0x530ba7c23ca3346e7fbdd46c5197a484bc0a855f05da36c223b2d6743aa2434f": {
+        "name": "Client",
+        "address": "0x9f826f05E425Ea535F558EbAe38aD3834ABf3A1F"
+      },
+      "0x562e17c37e9c9d304bbcade594838e83f28cae5de0327ba53dbe9424a629f00d": {
+        "name": "HelperFunctions",
+        "address": "0x6C6077Bb1BaBCfbBDdc65244bf84e944317510aA"
+      },
+      "0x0187cdb1f23525f9d55b10c619effac6cafe163cd14fa14c5c2f4d32e4d5075a": {
+        "name": "Lawyer",
+        "address": "0x278301A41d237D0e06909992Ac8668877f9ce2BE"
+      },
+      "0x5be0cda6f8e8a362de67e486c1142495212a82dbf3dfcbd4fb839e4c451ad1bb": {
+        "name": "Client",
+        "address": "0xbE43BB4fFe86CF9dE9668c0cF4F8eBA22Ad2eC6E"
+      },
+      "0xe3c41883ca4a13d6f8e7afad62deaebc04a2a62247c4675ff45a95c1bfc0610f": {
+        "name": "HelperFunctions",
+        "address": "0xA6f03027873e28D7c8B474e751F22bc058ca11AD"
+      },
+      "0xb85227bfcaf75f5d0b27e76efef1dc77c4433c838acc85994dc10befc91474da": {
+        "name": "Lawyer",
+        "address": "0x166aE21982924945468cd62C8772913E64fCeF7f"
+      },
+      "0xff610e9cc15fdad8cbd24a526266938f526ea764a906edaf9f0a1d6d1a835ec4": {
+        "name": "Client",
+        "address": "0xe2590f09B98256ff8dB578CA7Bf680acc9202dC6"
+      },
+      "0xd151ad58f46780a67d9748385f0d90a3ef48d1baaa7f6484c50577c2397e9a9b": {
+        "name": "HelperFunctions",
+        "address": "0xFb6f7438064813B7F297272A69f7A5a43e9aC734"
+      },
+      "0x31ea2d28e67fb9d0e522c15b8ce981e9a59edf8df5af7a2547d9f792a8134ab6": {
+        "name": "Lawyer",
+        "address": "0x36257B66F2fd3cfC39c66D61A9747e5E24BbE85C"
+      },
+      "0x9d11f54f4289829c57523ebd3661035f3cda4fae9899d1ff05b3dfe76f40b37e": {
+        "name": "Client",
+        "address": "0xe13b80F12c120cE44830BCf0e5373f563246Fc7c"
+      },
+      "0x13e888c504a5d21cf396302a32da8f272f91cfbb1ecf378cec4b9537487219fc": {
+        "name": "HelperFunctions",
+        "address": "0x6261b9beC7654CFffC9D6cE2Cf1Fc0c94a9dC383"
+      },
+      "0xca44676aa4c6d52e65948bc9d4fe92584a86d594fba35c006a3f36d3c18e7aa1": {
+        "name": "Lawyer",
+        "address": "0x2Aa864308876e4467F54BBB5318948b1E392c82B"
+      },
+      "0x4d630e041de9fdcc5d91ab1f53c7cdfcb85baad35bd75fca3c4a04cb11e22e40": {
+        "name": "Client",
+        "address": "0x49F03Dbe109d9a488Ccf21B8F09618F7741C9E3a"
+      },
+      "0x3b61eee5f172b22e65c45ab98727b95ad0dd1b17d7c5d621c086d6d15ac155b6": {
+        "name": "HelperFunctions",
+        "address": "0xEB977028b914b90429CA069f5F38303928B4bcAD"
+      },
+      "0x9ff6b0e30219ffc68dcc21e957e6f17da4ee7a8a5a9de49cb84c0aafeb07215b": {
+        "name": "Lawyer",
+        "address": "0xE4a0B7443E52e33c93279A2754e2129C9173B4C5"
+      },
+      "0x1776c61a13f02b38f651a6427fb00b8693bcd57f5c4f1a8807f6ef730dd48da5": {
+        "name": "Client",
+        "address": "0x1fa09563c679057537c8708591F920208fEad1E0"
+      },
+      "0x66f0bdf17f8e63b5f9aa48434b253141182eacd589c07baeaac86971cbef7e57": {
+        "name": "HelperFunctions",
+        "address": "0x7AE33c9E44d7B29916EB2AA6A578fbDD72d9bccA"
+      },
+      "0xd3fa10e81ec2c986b53f2183c4e8c22278440410283d78cf66ffa9bf9180c278": {
+        "name": "Lawyer",
+        "address": "0x608b655eAB1A6e173625707a4c461067b287c282"
+      },
+      "0xc247da9efe3ab09a676d222217c1235c9d297df6c08f83a6a1c2b8ab4d2efa25": {
+        "name": "Client",
+        "address": "0xda1d31c12e9210d7bfE51625c02C3594159bfC34"
+      },
+      "0x15dd73a62991fe36a05ae89c257405e9ee260fb30ebb68c56166524392c3c320": {
+        "name": "HelperFunctions",
+        "address": "0x89efE32F1BDABdAfde9830E4bA01794ab43E9071"
+      },
+      "0x5c0154bca0196cff800ba74deba22085c09b1e8aa38d2d9938de4d7f119fcab1": {
+        "name": "Lawyer",
+        "address": "0x5C00F542915E3DfEF5966313AF20C22492035AFD"
+      },
+      "0xb8d303df54303d7c64d9ff71713b4d55a9624b002fe0872b992ea1d5e82f6978": {
+        "name": "Lawyer",
+        "address": "0xEC3702A025AA7E0D639f14F385e37eA10C52b98e"
+      },
+      "0x36cff52abe718116880896822b6d5e3e9955c85653667a4e58de24e7696fd1ca": {
+        "name": "Lawyer",
+        "address": "0xcE640d6EBa884F684389E433120320855cc3860d"
+      },
+      "0xd0e427dc5afe2b64fddead0277189d6fb8a1c838c4c4885b7abdfbf8a3890225": {
+        "name": "Lawyer",
+        "address": "0xFB1E3Ea5fdFAA0447A714abBFe3012246064A153"
+      },
+      "0x4112954fc2d44d8f8aa8078884f5c333a7e12993ae838907eeb259856d17084f": {
+        "name": "Lawyer",
+        "address": "0x3325930bbEd1b136094cc05a5aDd470613C6ad8E"
+      },
+      "0x55a293a607f50a478982291d1c6ee4807900a27f0cf911fd9b6659aad1924791": {
+        "name": "Lawyer",
+        "address": "0x8445634E0eeB23b2bA8A1c472B5D62bfCBBbeBaA"
+      },
+      "0xd078fbfb6b35c128ee8df1f7a8967f56a34f6fdb489cbece0ce08e42c3eb5d7f": {
+        "name": "Lawyer",
+        "address": "0x6fD293a5ACdb34c5CeDe5D9B1dd702EC10D33B49"
+      },
+      "0xbd3c0cdeab173905b5b7a9a49dbd6773d5789fc609ffbb8ad6ce9d1bb90c7202": {
+        "name": "Lawyer",
+        "address": "0x67Edc1419359720B49972cA585296B9e20E7343A"
+      },
+      "0xd70ed6b7809d1cf3eca68166aaea4882998b9de1ea245b4015c66a4296c71d7b": {
+        "name": "Lawyer",
+        "address": "0xdA63f4321407E07f63E620eC98Ed66dB06e130D0"
+      },
+      "0x0aa8cb4dc9eafb08ee833d8654ad53ae514d5807a8becd9508fdb4e8dfad387f": {
+        "name": "Lawyer",
+        "address": "0x7BA961191fa5b2C96Ae6B3D5d1d0a04bbB272071"
+      },
+      "0x93abbc45d4e8209ae14479dfe634c73c3693cf8a34bf9c3748f41d2b579fe684": {
+        "name": "Lawyer",
+        "address": "0x6998e8f2eEfD55e62C0d7033FBD857F74000F214"
+      }
+    }
+  }
+}
