@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <base href="/" />
+	    <meta charset="utf-8" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	    <!-- Title -->
+	    <title>Digital Will</title>
+
+	    <!--Import jQuery before materialize.js-->
+      	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+	     <!-- Compiled and minified CSS -->
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
+	    <!-- Compiled and minified JavaScript -->
+      	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+      	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+      	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+      	<style type="text/css">
+      		.material-icons
+      		{
+      			vertical-align: middle;
+      		}
+      		
+      	</style>
+
+	    <script type="text/javascript">
+
+	    	
+			$(document).ready(function()
+			{
+				$('select').formSelect();
+			});
+
+	    </script>
+<script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_tiEHRQ85Q17X1ybe2wLpz");
+   })();
+</script>
+      <script src="js/app.js"></script>
+
+	</head>
+
+	<body style = "margin: 10px; max-width: 100%; overflow-x: hidden;">
+
+		<div class = "center-align">
+			<h2 align="center" style = "color: #ee6e73;"><u>View Will</u></h2>
+		</div>
+
+		<br/>
+
+		<div class="center-align">
+			<div class="row">
+				<div class="col m4">
+					<a id = 'refrViewWill' class="btn-floating btn-large waves-effect waves-light red">
+						<i class="material-icons">refresh</i>
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col s2">
+			</div>
+			<div class="col s8" style="min-width: 300px;">
+				<div class="row">
+					<div class="input-field col s12">
+						<textarea id="Will" class="materialize-textarea">...</textarea>
+						<label for="Will">Will and Testament</label>
+					</div>
+				</div>
+			</div>
+			<div class="col s2">
+			</div>
+		</div>
+
+		<div class = "center-align">
+			<h2 align="center" style = "color: #ee6e73;"><u>Asset List</u></h2>
+		</div>
+
+		<div class="center-align">
+
+			<div style="margin-left: 15px; margin-right: 15px;">
+				<div class="row">
+					<div class="col m4">
+						<div class="card hoverable">
+							<div class="card-content">
+								<span class="card-title grey-text text-darken-4">
+															
+									<p align="center">Asset 1 <a onclick="mini('assOne')"><i class="material-icons">keyboard_arrow_down</i></a></p>
+
+									<!-- Inside Main Card -->
+									<div id="assOne" style="display: inline-block;">
+										<div class="row">
+							                <div class="col s2">
+							                </div>
+							                <div class="col s8"style="min-width: 280px;">
+							                    <div class="row">
+							                        <div class="input-field col s12">
+							                            <input id="asset" type="text" class="validate" value = "Asset One" disabled>
+							                            <label for="asset">Asset Name</label>
+							                        </div>
+							                    </div>
+
+								                <div class="row">
+								                    <div class="input-field col s12">
+								                        <input id="assT" type="text" class="validate" value = "Cryptocurrency" disabled>
+								                        <label for="assT" id="Cryptocurrency">Asset Type</label>
+								                    </div>
+								                </div>
+							                </div>
+							                <div class="col s2">
+							                </div>
+							            </div>
+
+										<!-- -->
+										<h4 align="center" style = "color: #ee6e73;"><u>Benificieries:</u></h4>
+
+										<div style="display: inline-block;">
+											<div class="row">
+												<div class="col m4">
+													<div class="card hoverable" style="max-width: 300px;">
+														<div class="card-content">
+															<span class="card-title grey-text text-darken-4">
+
+																<!-- Inside Benificieries -->
+																<p align="center">Benificiery 1 <a onclick="mini('benOne')"><i class="material-icons">keyboard_arrow_down</i></a></p>
+
+													            <div id="benOne" class="row" style="display: inline-block;">
+													                <div class="col s1">
+													                </div>
+													                <div class="col s10"style="min-width: 200px;">
+														                <div class="row">
+														                    <div class="input-field col s12">
+														                        <input id="fname2" type="text" class="validate" value = "Jack" disabled>
+														                        <label for="fname2">First Name</label>
+														                    </div>
+														                </div>
+														                <div class="row">
+														                    <div class="input-field col s12">
+														                        <input id="lname2" type="text" class="validate" value = "One" disabled>
+														                        <label for="lname2">Last Name</label>
+														                    </div>
+														                </div>
+														                <div class="row">
+														                    <div class="input-field col s12">
+														                        <input id="ID2" type="number" class="validate" value = "9206426503072" disabled>
+														                        <label for="ID2">ID Number</label>
+														                    </div>
+														                </div>
+
+																		<div class="row">
+																			<form class="col s12">
+																				<div class="row">
+																					<div class="input-field col s12">
+																						<textarea id="textarea1" class="materialize-textarea" disabled>Text</textarea>
+																						<label for="textarea1">Terms of Inheritance</label>
+																					</div>
+																				</div>
+																			</form>
+																		</div>
+
+													                </div>
+													                <div class="col s1">
+													                </div>
+													            </div>
+
+																<!-- -->
+															</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<!-- -->
+
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<br/>
+		</div>
+
+		<div class="fixed-action-btn">
+			<a class="btn-floating btn-large waves-effect waves-light red" href="clientPortal.html">
+				<i class="large material-icons">arrow_back</i>
+			</a>
+		</div>
+
+	    <script type="text/javascript">
+
+	    	function mini (a)
+	    	{
+	    		var elem = $("#" + a);
+
+	    		if (elem.css("display") == "inline-block")
+	    		{
+	    			elem.css("display", "none");
+	    		}
+	    		else
+	    		{
+	    			elem.css("display", "inline-block");
+	    		}
+	    	}
+
+	    </script>
+
+      	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+
+	</body>
+
+</html>

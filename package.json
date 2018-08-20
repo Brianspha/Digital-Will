@@ -8,6 +8,12 @@
   "author": "",
   "license": "ISC",
   "homepage": "",
-  "devDependencies": {
+  "devDependencies": {},
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "jquery": "^3.3.1",
+    "js-alert": "^1.0.4",
+    "require": "^2.4.20",
+    "twilio": "^3.19.1"
   }
 }

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <base href="/" />
+	    <meta charset="utf-8" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	    <!-- Title -->
+	    <title>Digital Will</title>
+
+	    <!--Import jQuery before materialize.js-->
+      	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+	     <!-- Compiled and minified CSS -->
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
+	    <!-- Compiled and minified JavaScript -->
+      	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+      	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+      	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+	    <script type="text/javascript">
+
+	    </script>
+<script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_tiEHRQ85Q17X1ybe2wLpz");
+   })();
+</script>
+      <script src="js/app.js"></script>
+
+	</head>
+
+	<body style = "max-width: 100%; overflow-x: hidden;">
+
+		<ul id="slide-out" class="sidenav">
+			<li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+			<li><a href="#!">Second Link</a></li>
+			<li><div class="divider"></div></li>
+			<li><a class="subheader">Subheader</a></li>
+			<li><a class="waves-effect" href="#!">Third Link With Waves</a></li>	
+		</ul>
+
+		<div class = "row">
+
+			<div class = "col s2">
+				<a class="btn-floating btn-large waves-effect waves-light sidenav-trigger red" data-target="slide-out" style = "margin-left: 15px; margin-top: 15px;"><i class="material-icons">menu</i></a>
+			</div>
+
+			<div class = "col s8">
+				<br/>
+				<h2 align="center" style = "color: #ee6e73;">Digital Will</h2>
+			</div>
+
+			<div class = "col s2" align = "right">
+				<a class="btn-floating btn-large waves-effect waves-light red" style = "margin-right: 15px; margin-top: 15px;"><i class="material-icons">account_circle</i></a>
+			</div>
+		</div>
+
+		<div class = "center-align">
+			<h2 align="center" style = "color: #ee6e73;"><u>Will Pool</u></h2>
+		</div>
+
+		<div class="center-align">
+
+			<iframe id="theFrame" style="width: 100%; height: 370px;" src="pagination1.html" frameBorder="0"></iframe>
+
+			<ul class="pagination" style="justify-content: center;">
+				<li class="waves-effect"><a onclick="prevPag();"><i class="material-icons">chevron_left</i></a></li>
+				<li class="waves-effect"><a onclick="nextPag();"><i class="material-icons">chevron_right</i></a></li>
+			</ul>
+			
+		</div>
+
+		<div class = "center-align">
+			<h2 align="center" style = "color: #ee6e73;"><u>History</u></h2>
+		</div>
+
+		<div class="center-align">
+
+			<div style="margin-left: 15px; margin-right: 15px; display: inline-block;">
+				<div class="row">
+					<div class="col m4">
+						<div class="card hoverable modal-trigger" style="width: 150px;" href="#approvedModal">
+							<div class="card-image waves-effect waves-block waves-light">
+								<i class="medium material-icons" style="margin-top: 10px;">thumb_up</i></a>
+							</div>
+							<div class="card-content">
+								<span class="card-title grey-text text-darken-4">
+									<p align="center" style="font-size: 20px;">Approved</p>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div style="margin-left: 15px; margin-right: 15px; display: inline-block;">
+				<div class="row">
+					<div class="col m4">
+						<div class="card hoverable modal-trigger" style="width: 150px;" href="#deniedModal">
+							<div class="card-image waves-effect waves-block waves-light">
+								<i class="medium material-icons" style="margin-top: 10px;">thumb_down</i></a>
+							</div>
+							<div class="card-content">
+								<span class="card-title grey-text text-darken-4">
+									<p align="center" style="font-size: 20px;">Denied</p>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+
+		<!-- -->
+
+		<!-- Modal Structure -->
+		<div id="approvedModal" class="modal bottom-sheet" style=" overflow-y: auto !important;">
+			<div class="modal-content">
+
+				<div class="center-align">
+				<h4 style = "color: #ee6e73;"><u>Approved Wills</u></h4>
+
+					<div style="margin-left: 15px; margin-right: 15px; display: inline-block;">
+						<div class="row">
+							<div class="col m4">
+								<div class="card hoverable" style="max-width: 350px;">
+									<div class="card-image waves-effect waves-block waves-light">
+										<img class="activator" src="../images/t1.jpg">
+									</div>
+									<div class="card-content">
+										<span class="card-title grey-text text-darken-4">
+											<p align="center">Will Of Rob Stark</p>
+										</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div style="margin-left: 15px; margin-right: 15px; display: inline-block;">
+						<div class="row">
+							<div class="col m4">
+								<div class="card hoverable" style="max-width: 350px;">
+									<div class="card-image waves-effect waves-block waves-light">
+										<img class="activator" src="../images/t1.jpg">
+									</div>
+									<div class="card-content">
+										<span class="card-title grey-text text-darken-4">
+											<p align="center">Will Of Rebecca Coal</p>
+										</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+			<div class="modal-footer">
+				<a class="modal-close waves-effect waves-green btn-flat">Close</a>
+			</div>
+		</div>
+
+		<!-- Modal Structure -->
+		<div id="deniedModal" class="modal bottom-sheet" style="overflow-y: auto !important;">
+			<div class="modal-content">
+
+				<div class="center-align">
+				<h4 style = "color: #ee6e73;"><u>Denied Wills</u></h4>
+
+					<div style="margin-left: 15px; margin-right: 15px; display: inline-block;">
+						<div class="row">
+							<div class="col m4">
+								<div class="card hoverable" style="max-width: 350px;">
+									<div class="card-image waves-effect waves-block waves-light">
+										<img class="activator" src="../images/t1.jpg">
+									</div>
+									<div class="card-content">
+										<span class="card-title grey-text text-darken-4">
+											<p align="center">Will Of Bob Ross</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div style="margin-left: 15px; margin-right: 15px; display: inline-block;">
+						<div class="row">
+							<div class="col m4">
+								<div class="card hoverable" style="max-width: 350px;">
+									<div class="card-image waves-effect waves-block waves-light">
+										<img class="activator" src="../images/t1.jpg">
+									</div>
+									<div class="card-content">
+										<span class="card-title grey-text text-darken-4">
+											<p align="center">Will Of Peter Parker</p>
+										</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div style="margin-left: 15px; margin-right: 15px; display: inline-block;">
+						<div class="row">
+							<div class="col m4">
+								<div class="card hoverable" style="max-width: 350px;">
+									<div class="card-image waves-effect waves-block waves-light">
+										<img class="activator" src="../images/t1.jpg">
+									</div>
+									<div class="card-content">
+										<span class="card-title grey-text text-darken-4">
+											<p align="center">Will Of Jeff Bezos</p>
+										</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+			<div class="modal-footer">
+				<a class="modal-close waves-effect waves-green btn-flat">Close</a>
+			</div>
+		</div>
+          
+
+      	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+
+	    <script type="text/javascript">
+
+
+			$(document).ready(function(){
+				$('.sidenav').sidenav();
+
+			    $('#approvedModal').modal({
+			            dismissible: true, // Modal can be dismissed by clicking outside of the modal
+			            opacity: 0.5, // Opacity of modal background
+			            inDuration: 100, // Transition in duration
+			            outDuration: 250, // Transition out duration
+			            startingTop: '4%', // Starting top style attribute
+			            endingTop: '10%', // Ending top style attribute
+
+			            ready: function(modal, trigger) { // Callback for Modal open. Modal and trigger parameters available.
+			                console.log(modal, trigger);
+			            },
+			            complete: function() {
+			            } // Callback for Modal close
+			        }
+			    );
+
+			    $('#deniedModal').modal({
+			            dismissible: true, // Modal can be dismissed by clicking outside of the modal
+			            opacity: 0.5, // Opacity of modal background
+			            inDuration: 100, // Transition in duration
+			            outDuration: 250, // Transition out duration
+			            startingTop: '4%', // Starting top style attribute
+			            endingTop: '10%', // Ending top style attribute
+
+			            ready: function(modal, trigger) { // Callback for Modal open. Modal and trigger parameters available.
+			                console.log(modal, trigger);
+			            },
+			            complete: function() {
+			            } // Callback for Modal close
+			        }
+			    );
+			});
+
+	    	var pagStart = 1;
+
+			function nextPag ()
+			{
+				if (pagStart == 1) {
+					$('#theFrame').prop('src', 'pagination2.html');
+					pagStart++;
+					return;
+				}
+				if (pagStart == 2) {
+					$('#theFrame').prop('src', 'pagination3.html');
+					pagStart++;
+					return;
+				}
+				if (pagStart == 3) {
+					$('#theFrame').prop('src', 'pagination1.html');
+					pagStart = 1;
+					return;
+				}
+			}
+
+			function prevPag ()
+			{
+				if (pagStart == 1) {
+					$('#theFrame').prop('src', 'pagination3.html');
+					pagStart = 3;
+					return;
+				}
+				if (pagStart == 2) {
+					$('#theFrame').prop('src', 'pagination1.html');
+					pagStart--;
+					return;
+				}
+				if (pagStart == 3) {
+					$('#theFrame').prop('src', 'pagination2.html');
+					pagStart--;
+					return;
+				}
+			}
+
+	    </script>
+
+	</body>
+
+</html>

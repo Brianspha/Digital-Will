@@ -4,7 +4,16 @@
     "css/app.css": ["app/css/**"],
     "js/app.js": ["app/js/index.js"],
     "images/": ["app/images/**"],
-    "index.html": "app/index.html"
+    "index.html": "app/index.html",
+    "clientPortal.html":"app/clientPortal.html",
+    "lawPortal.html":"app/lawPortal.html",
+    "lawyerList.html":"app/lawyerList.html",
+    "pagination1.html":"app/pagination1.html",
+    "pagination2.html":"app/pagination2.html",
+    "pagination3.html":"app/pagination3.html",
+    "viewWillForm.html":"app/viewWillForm.html",
+    "willForm.html":"app/willForm.html",
+    "lawyerWillForm.html": "app/lawyerWillForm.html"
   },
   "buildDir": "dist/",
   "config": "config/",

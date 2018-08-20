@@ -30,7 +30,7 @@ module.exports = {
       "ws://localhost:8546",
       "http://localhost:8545"
     ],
-    gas: "8000000",
+    gas: "6000000",
     contracts: {
       "Client": {
         "args": [

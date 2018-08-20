@@ -1,11 +1,127 @@
-<html>
-  <head>
-    <title>Embark</title>
-    <link rel="stylesheet" href="css/app.css">
-    <script src="js/app.js"></script>
-  </head>
-  <body>
-    <h3>Welcome to Embark!</h3>
-    <p>See the <a href="http://embark.readthedocs.io/en/latest/index.html" target="_blank">Embark's documentation</a> to see what you can do with Embark!</p>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <base href="/" />
+	    <meta charset="utf-8" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	    <!-- Title -->
+	    <title>Digital Will</title>
+
+	    <!--Import jQuery before materialize.js-->
+      	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+	     <!-- Compiled and minified CSS -->
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
+	    <!-- Compiled and minified JavaScript -->
+      	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+      	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+      	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+        <script type="text/javascript">
+           (function(){
+              emailjs.init("user_tiEHRQ85Q17X1ybe2wLpz");
+           })();
+        </script>
+      <script src="js/app.js"></script>
+    </head>
+
+	<body style = "max-width: 100%; overflow-x: hidden;">
+
+	    <!-- Sign In Modal Structure -->
+	    <div id="signUpModal" class="modal" style="height: 700px; overflow-y: auto !important;">
+	        <div class="modal-content">
+	            <h4>Sign Up</h4>
+	            <hr/>
+	            <p>Please Sign Up</p>
+	            <br/>
+	            <div class="row">
+	                <form class="col s12">
+	                    <div class="row">
+	                        <div class="input-field col s12">
+	                            <input id="fname" type="text" class="validate">
+	                            <label for="fname">First Name</label>
+	                        </div>
+	                    </div>
+	                    <div class="row">
+	                        <div class="input-field col s12">
+	                            <input id="lname" type="text" class="validate">
+	                            <label for="lname">Last Name</label>
+	                        </div>
+	                    </div>
+	                    <div class="row">
+	                        <div class="input-field col s12">
+	                            <input id="ID" type="text" class="validate">
+	                            <label for="ID">ID Number</label>
+	                        </div>
+	                    </div>
+	                    <div class="row">
+	                        <div class="input-field col s12">
+	                            <input id="password" type="password" class="validate">
+	                            <label for="password">Password</label>
+	                        </div>
+	                    </div>
+	                </form>
+	            </div>
+	        </div>
+	        <div class="modal-footer">
+	            <a id = "signUpButton" class="modal-close waves-effect waves-teal btn-flat">Sign Up</a>
+	        </div>
+	    </div>
+
+	    <!-- -->
+
+		<div class="center-align" style="margin-top: 50%;">
+			<div class="row">
+				<div class="col m2">
+				</div>
+				<div class="col m4">
+					<a class="btn-floating btn-large waves-effect waves-light red" href="clientPortal.html"><i class="material-icons">hot_tub</i></a>
+				</div>
+				<div class="col m4">
+					<a class="btn-floating btn-large waves-effect waves-light red" href="lawPortal.html"><i class="material-icons">import_contacts</i></a>
+				</div>
+				<div class="col m2">
+				</div>
+			</div>
+		</div>
+
+	    <!-- -->
+
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+
+      	<script type="text/javascript">
+
+			$(document).ready(function()
+			{
+
+			    $('#signUpModal').modal({
+			            dismissible: false, // Modal can be dismissed by clicking outside of the modal
+			            opacity: 0.5, // Opacity of modal background
+			            inDuration: 100, // Transition in duration
+			            outDuration: 250, // Transition out duration
+			            startingTop: '4%', // Starting top style attribute
+			            endingTop: '10%', // Ending top style attribute
+
+			            ready: function(modal, trigger) { // Callback for Modal open. Modal and trigger parameters available.
+			                console.log(modal, trigger);
+			            },
+			            complete: function() {
+			            } // Callback for Modal close
+			        }
+			    );
+
+			    $('#signUpModal').modal('open');
+
+			    $('#signUpButton').click(function () {
+			    	$('#signUpModal').modal('close');
+			    });
+			});
+      	</script>
+
+	</body>
+
 </html>

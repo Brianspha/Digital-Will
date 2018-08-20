@@ -8,18 +8,20 @@ contract HelperFunctions {
     struct Will {
         string name;
         string id;
-        string[] assets;
-        string[] benef;
+        string assets;
+        string benef;
         address LawyerAddress;
         address Witness1;
         address Witness2;
         uint approved;
+        string will;
     }
+
     struct PendingWill {
-        uint256 UID;
+        uint256 UIDClient;
         address Owner;
         bool IsPending;
-        uint256 index;
+        uint256 indexLawyer;
 
     }
     struct Advert {
@@ -30,6 +32,8 @@ contract HelperFunctions {
 
     //@Dev Used to log messages returned by functions 
     event GeneralLogger(string message);
+        event GeneralLogger(uint256 message);
+event GeneralLogger(address id);
     //@Dev Converts bytes32 to string
     function bytes32ToString(bytes32 x) public pure returns(string) {
         bytes memory bytesString = new bytes(32);
